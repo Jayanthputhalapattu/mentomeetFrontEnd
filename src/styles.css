@@ -23,3 +23,7 @@
   margin-top: 10px;
   margin-left: 35%;
 }
+
+.del :hover {
+  cursor: pointer;
+}

@@ -26,7 +26,7 @@ const MyForm = () => {
   };
   return (
     <>
-      <ToastContainer position="top-left" style={{ marginTop: 100 }} />
+      <ToastContainer position="bottom-left" style={{ marginTop: 100 }} />
       <form onSubmit={handleSubmit} className="form">
         <input
           type="text"
