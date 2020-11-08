@@ -19,15 +19,15 @@ const ResponseTab = () => {
       <Table dark>
         <tr>
           <th>#</th>
-          <th>DataBase-ID</th>
-          <th>Name</th>
+          <th>FirstName</th>
+          <th>SecondName</th>
           <th>Date Added </th>
         </tr>
         {myList.map((res, key) => (
           <tbody>
             <td>{key + 1}</td>
-            <td>{res._id}</td>
             <td>{res.name}</td>
+            <td>{res.LastName}</td>
             <td>{res.createdAt}</td>
           </tbody>
         ))}

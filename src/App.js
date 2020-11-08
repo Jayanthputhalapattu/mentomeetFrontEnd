@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles.css";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import { combineForms } from "react-redux-form";
